@@ -1,4 +1,5 @@
 import HeroSection from "./HeroSection";
+import MobileSection from "./MobileSection";
 import TvSection from "./TvSection";
 
 const Body = () => {
@@ -6,6 +7,7 @@ const Body = () => {
     <>
       <HeroSection />
       <TvSection />
+      <MobileSection />
     </>
   );
 };
