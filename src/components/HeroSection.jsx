@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <section
       style={{ backgroundImage: `url(${BG_POSTER})` }}
-      className='h-[96vh] border-b-8 border-neutral-700'
+      className='h-[96vh] border-b-8 border-neutral-700 bg-containe'
     >
       <div className=' h-full bg-gradient-to-b from-[rgba(0,0,0,0.9)] via-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,0.9)]'>
         <Header />

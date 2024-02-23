@@ -1,6 +1,6 @@
 import Body from "./components/Body";
 import { createBrowserRouter } from "react-router-dom";
-import SignIn from "./components/SignIn";
+import SignInPage from "./components/SignInPage";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ export const appRouter = createBrowserRouter([
   },
   {
     path: "/sign-in",
-    element: <SignIn />,
+    element: <SignInPage />,
   },
 ]);
 
