@@ -22,8 +22,8 @@ export const BG_POSTER =
 export const DOWNLOAD_GIF =
   "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif";
 
-// export const VIDEO_TV =
-//   "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v";
+export const VIDEO_TV =
+  "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v";
 
 // export default VIDEO_DEVICES =
 //   "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v";
