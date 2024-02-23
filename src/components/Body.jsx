@@ -1,7 +1,11 @@
-import React from "react";
+import HeroSection from "./HeroSection";
 
 const Body = () => {
-  return <div>Body</div>;
+  return (
+    <>
+      <HeroSection />
+    </>
+  );
 };
 
 export default Body;

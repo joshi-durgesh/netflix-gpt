@@ -1,13 +1,11 @@
 import Body from "./components/Body";
-import { Outlet, createBrowserRouter } from "react-router-dom";
-import Header from "./components/Header";
+import { createBrowserRouter } from "react-router-dom";
 import SignIn from "./components/SignIn";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Outlet />
+      <Body />
     </div>
   );
 }
@@ -16,15 +14,9 @@ export const appRouter = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    children: [
-      {
-        path: "/",
-        element: <Body />,
-      },
-    ],
   },
   {
-    path: "/login",
+    path: "/sign-in",
     element: <SignIn />,
   },
 ]);

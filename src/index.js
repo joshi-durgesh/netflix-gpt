@@ -4,12 +4,14 @@ import "./index.css";
 import App, { appRouter } from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { RouterProvider } from "react-router-dom";
+import { StyledEngineProvider } from "@mui/material";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <RouterProvider router={appRouter} />
+    <StyledEngineProvider injectFirst>
+      <RouterProvider router={appRouter} />
+    </StyledEngineProvider>
   </React.StrictMode>
 );
 
